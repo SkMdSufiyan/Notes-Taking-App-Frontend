@@ -84,7 +84,9 @@ const Home = () => {
 <br />
         <div style={{textAlign:'left', fontSize : "small"}}>
           <ul>
-            <li>Source code url: <a href="https://github.com/SkMdSufiyan/SufiyanCvCrmAppFullstack.git" target='_blank' rel="noopener noreferrer">https://github.com/SkMdSufiyan/SufiyanCvCrmAppFullstack.git</a></li>
+            <li>Frontend source code url: <a href="https://github.com/SkMdSufiyan/Notes-Taking-App-Frontend.git" target='_blank' rel="noopener noreferrer">https://github.com/SkMdSufiyan/Notes-Taking-App-Frontend.git</a></li>
+
+            <li>Backend source code url: <a href="https://github.com/SkMdSufiyan/Notes-Taking-App-Backend.git" target='_blank' rel="noopener noreferrer">https://github.com/SkMdSufiyan/Notes-Taking-App-Backend.git</a></li>
           </ul>
         </div>
 
