@@ -1,0 +1,206 @@
+.App {
+  text-align: center;
+  justify-content: center;
+  margin: 5px 15px;
+  padding: 5px 10px;
+}
+
+
+.blue-color-p-class{
+  color: white;
+  font: bold;
+  background-color: green;
+}
+
+.suggestion-p-class{
+  color: blue;
+  font-size: small;
+}
+
+.Button-class{
+  margin: 5px 10px;
+}
+
+
+.component-main-div{
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.login-card-div{
+  display: inline-block;
+  text-align: center;
+}
+
+span{
+  color: red;
+  font-size: smaller;
+}
+
+
+.home-page-Button-class{
+  margin: 5px 15px;
+}
+
+.signup-login-link-but-div{
+  text-align: right;
+}
+
+.signup-link-but, .login-link-but{
+  border: none;
+  background-color: white;
+  color: blue;
+  margin: 5px 10px;
+  text-decoration: underline;
+}
+
+.forgot-pw-link-but{
+  border: none;
+  background-color: white;
+  color: blue;
+  font-size: small;
+  margin: 5px 10px;
+  text-decoration: underline;
+}
+
+.apiCallError-h6-class{
+  color: red;
+}
+
+.apiCallSuccess-h6-class{
+  color: blue;
+}
+
+
+.profile-div{
+  margin: 10px;
+  padding: 10px;
+}
+
+
+.Navbar-class{
+  margin-bottom: 20px;
+  /* background-color: rgb(19, 68, 44); */
+  background-color: rgb(5, 44, 70);
+  /* background-color: rgb(156, 8, 65); */
+  /* background-color: rgb(221, 12, 92); */
+  /* background-color: rgb(128, 11, 108); */
+}
+
+.dashboard-button-div{
+  display: inline-block;
+  padding: 15px;
+  border: 1px solid green;
+}
+
+.dashboard-Button-class{
+  margin: 5px 10px;
+
+}
+
+.action-buttons{
+  margin : 0px 5px;
+}
+
+td{
+  text-align: center;
+  justify-content: center;
+}
+
+.home-page-suggestion-flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.home-page-suggestion-divs{
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.home-page-suggestion-p-red{
+  font-size: small;
+  color: red;
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+}
+
+.home-page-suggestion-p-green{
+  font-size: small;
+  color: green;
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+
+}
+
+
+
+
+@media(max-width : 600px){
+  .home-page-suggestion-flex{
+    flex-direction: column;
+  }
+
+}
+
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+.app-suggestion-p{
+  color : red;
+  font-size: small;
+  margin : 0px;
+  font-weight: bold;
+  animation: blink 1s linear infinite; 
+}
+
+
+textarea{
+  width: 100%;
+}
+
+
+.note-button-class{
+  text-align: right;
+}
+
+.note-main-div-class{
+  display: inline-block;
+  width: 200px;
+  border: 1px solid blue;
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+  border-radius: 5%;
+}
+
+.note-date-class, .note-status-class{
+  font-size: small;
+  font-family: 'Courier New', Courier, monospace;
+  display: inline-block;
+  margin: 5px;
+}
+
+.note-date-class{
+  color: green;
+}
+
+.note-status-class{
+  color: blue;
+}
+
+
+
+select{
+  width: fit-content;
+}
